@@ -30,6 +30,16 @@ I trained two separate models using **Random Forest**:
 The results were really interesting! The model successfully learned to associate specific technical terms with difficulty:
 * **Easy Problems:** Often contain words like *"basic"*, *"loop"*, or *"print"*.
 * **Hard Problems:** Are heavily weighted by terms like *"dynamic programming"*, *"tree"*, and *"constraint"*.
+## Evaluation Metrics
+The models were trained on a dataset of ~2,400 LeetCode problems and evaluated on a 20% unseen test set.
+
+### 1. Classification (Difficulty Level)
+* **Accuracy:** **57.14%**
+* *Note:* Random guessing would yield ~33%. Our model performs significantly better than chance, proving it has learned to distinguish difficulty patterns from text.
+
+### 2. Regression (Difficulty Score)
+* **Mean Absolute Error (MAE):** **9.30**
+* *Interpretation:* On average, the model's predicted score (1-100) is within **9 points** of the true historical success rate.
 
 The Random Forest model proved to be robust, handling the variations in problem descriptions much better than simpler models like Logistic Regression.
 
@@ -62,3 +72,8 @@ If you want to test this on your own machine:
     ```bash
     streamlit run app.py
     ```
+## 👤 Author
+**[Utkarsh Bhardwaj]**
+[24112109]
+[B.Tech Chemical Engineering]
+[IIT Roorkee]
