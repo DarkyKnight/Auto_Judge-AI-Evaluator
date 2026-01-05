@@ -62,7 +62,8 @@ If you want to test this on your own machine:
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/DarkyKnight/AutoJudge-AI-Evaluator.git](https://github.com/DarkyKnight/AutoJudge-AI-Evaluator.git)
+    git clone https://github.com/DarkyKnight/Auto_Judge-AI-Evaluator.git
+    cd Auto_Judge-AI-Evaluator
     ```
 2.  **Install dependencies:**
     ```bash
@@ -70,7 +71,7 @@ If you want to test this on your own machine:
     ```
 3.  **Launch the app:**
     ```bash
-    streamlit run app.py
+    python -m streamlit run app.py
     ```
 ## 👤 Author
 **[Utkarsh Bhardwaj]**
