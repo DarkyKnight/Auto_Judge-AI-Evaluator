@@ -50,6 +50,7 @@ Here is a map of the files in this repo:
 * `Auto_Judge.ipynb` ➡ **The Lab.** This notebook contains my full experiments: data cleaning, visualization, and model training steps.
 * `requirements.txt` ➡ A list of libraries (like Scikit-Learn and Pandas) needed to run this in the cloud.
 * `*.pkl files` ➡ The "frozen" brain of the AI (the trained models) ready to make predictions.
+*  `24112109_autojudge_report.pdf` ➡ Report of this whole project explaining each and everything with some visuals and graph too.
 
 ## 🛠️ Tech Stack
 * **Python** (Core Logic)
