@@ -34,12 +34,12 @@ The results were really interesting! The model successfully learned to associate
 The models were trained on a dataset of ~2,400 LeetCode problems and evaluated on a 20% unseen test set.
 
 ### 1. Classification (Difficulty Level)
-* **Accuracy:** **57.14%**
+* **Accuracy:** **54.69%**
 * *Note:* Random guessing would yield ~33%. Our model performs significantly better than chance, proving it has learned to distinguish difficulty patterns from text.
 
 ### 2. Regression (Difficulty Score)
-* **Mean Absolute Error (MAE):** **9.30**
-* *Interpretation:* On average, the model's predicted score (1-100) is within **9 points** of the true historical success rate.
+* **Mean Absolute Error (MAE):** **12.73**
+* *Interpretation:* On average, the model's predicted score (1-100) is within **12 points** .
 
 The Random Forest model proved to be robust, handling the variations in problem descriptions much better than simpler models like Logistic Regression.
 
