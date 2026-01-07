@@ -57,6 +57,10 @@ Here is a map of the files in this repo:
 * **Streamlit** (Frontend/Deployment)
 * **Scikit-Learn** (Machine Learning)
 * **Pandas & NumPy** (Data Manipulation)
+  
+## 🎥 Demo Video
+**Watch the project in action here:**
+[https://drive.google.com/file/d/1RTNZ1nnBKZR6joCdqxW0-1gV99Cd0X-q/view?usp=sharing]
 
 ## 💻 How to Run Locally
 If you want to test this on your own machine:
